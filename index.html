@@ -890,6 +890,27 @@
 </head>
 <body>
 
+<!-- Top Navigation -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="wrap" style="display:flex; align-items:center; justify-content:space-between; padding:14px 32px;">
+    <a href="index.html" style="font-family:'Playfair Display',serif; font-weight:600; font-size:1.15rem; color:var(--sand-light); text-decoration:none;">Inn at Otter Crest</a>
+    <div style="display:flex; gap:28px; align-items:center;">
+      <a href="index.html" class="nav-link" style="color:var(--sand-light); text-decoration:none; font-family:'Outfit',sans-serif; font-size:0.92rem; font-weight:400; opacity:0.85; transition:opacity 0.2s;">Home</a>
+      <a href="trails-hiking.html" class="nav-link" style="color:var(--sand-light); text-decoration:none; font-family:'Outfit',sans-serif; font-size:0.92rem; font-weight:400; opacity:0.85; transition:opacity 0.2s;">Trails &amp; Hiking</a>
+      <a href="https://free-otter-crest-suite.vercel.app/raffle/main-website" target="_blank" rel="noopener" style="background:var(--sunset); color:#fff; padding:8px 20px; border-radius:24px; font-family:'Outfit',sans-serif; font-size:0.88rem; font-weight:500; text-decoration:none; transition:background 0.2s;">🎁 Win a Free Stay</a>
+      <a href="tel:+15417652111" style="color:var(--sand-light); text-decoration:none; font-family:'Outfit',sans-serif; font-size:0.92rem; font-weight:500;">(541) 765-2111</a>
+    </div>
+  </div>
+</nav>
+<style>
+  .site-nav{ background:var(--ocean-deep); position:relative; z-index:20; }
+  .site-nav .nav-link:hover{ opacity:1 !important; }
+  @media(max-width:768px){
+    .site-nav .wrap{ flex-wrap:wrap; gap:10px; padding:12px 16px !important; }
+    .site-nav a[style*="font-size:0.88rem"]{ font-size:0.8rem !important; padding:6px 14px !important; }
+  }
+</style>
+
 <div class="callbar" role="banner">
   <span class="beacon" aria-hidden="true"></span>
   <span>Limited availability &mdash;</span>
@@ -1281,6 +1302,36 @@
   </div>
 </section>
 
+<!-- ========== GIVEAWAY BANNER ========== -->
+<section class="giveaway" aria-label="Win a free stay giveaway" style="background:linear-gradient(135deg, var(--ocean-deep) 0%, var(--ocean) 100%); padding:80px 0; position:relative; overflow:hidden;">
+  <div class="wrap" style="display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;">
+    <div class="giveaway-text" style="color:var(--sand-light);">
+      <div style="font-family:'Playfair Display',serif; font-size:1rem; color:var(--coral); letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">🎉 Giveaway</div>
+      <h2 style="font-family:'Playfair Display',serif; font-size:2.4rem; font-weight:700; line-height:1.2; margin-bottom:16px;">Win a <em style="color:var(--coral);">Free 3-Night</em><br>Honeymoon Getaway!</h2>
+      <p style="font-size:1.05rem; line-height:1.7; opacity:0.9; margin-bottom:28px;">One lucky couple will win a <strong>FREE 3-night stay</strong> at the Inn at Otter Crest — a breathtaking oceanfront retreat on the Oregon Coast. Approximate retail value <strong style="color:var(--coral);">$1,050</strong>.</p>
+      <ul style="list-style:none; margin-bottom:32px; font-size:0.95rem; line-height:2; opacity:0.85;">
+        <li>✓ Oceanfront paradise — stunning Oregon Coast views</li>
+        <li>✓ 3 nights in the Honeymoon Suite</li>
+        <li>✓ Fireplace, full kitchen, year-round pool</li>
+        <li>✓ Perfect for romance — unforgettable sunsets</li>
+      </ul>
+      <a href="https://free-otter-crest-suite.vercel.app/raffle/main-website" target="_blank" rel="noopener" style="display:inline-block; background:var(--sunset); color:#fff; padding:16px 40px; border-radius:30px; font-family:'Outfit',sans-serif; font-size:1.05rem; font-weight:600; text-decoration:none; transition:all 0.3s; box-shadow:0 4px 20px rgba(232,137,90,0.4);">Enter the Giveaway →</a>
+      <p style="margin-top:14px; font-size:0.82rem; opacity:0.6;">No purchase necessary. See official rules at website.</p>
+    </div>
+    <div class="giveaway-poster" style="text-align:center;">
+      <img src="images/giveaway-poster.png" alt="Win a Free 3-Night Honeymoon Getaway at Inn at Otter Crest - Scan QR code to enter" style="width:100%; max-width:420px; border-radius:12px; box-shadow:0 8px 40px rgba(0,0,0,0.4);">
+    </div>
+  </div>
+</section>
+<style>
+  @media(max-width:820px){
+    .giveaway .wrap{ grid-template-columns:1fr !important; text-align:center; }
+    .giveaway-poster{ order:-1; }
+    .giveaway-poster img{ max-width:320px; }
+    .giveaway-text ul{ text-align:left; }
+  }
+</style>
+
 <!-- ========== FOOTER ========== -->
 <footer role="contentinfo">
   <div class="wrap">
@@ -1296,7 +1347,9 @@
           <li><a href="#amenities">Suite Amenities</a></li>
           <li><a href="#experiences">Experiences</a></li>
           <li><a href="#gallery">Photo Gallery</a></li>
+          <li><a href="trails-hiking.html">Trails &amp; Hiking</a></li>
           <li><a href="#location">Location</a></li>
+          <li><a href="https://free-otter-crest-suite.vercel.app/raffle/main-website" target="_blank" rel="noopener">🎁 Win a Free Stay</a></li>
         </ul>
       </div>
       <div>

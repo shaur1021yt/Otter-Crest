@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trails & Hiking at Otter Crest | Oregon Coast Adventures</title>
+<meta name="description" content="Explore coastal trails, Devil's Punchbowl, volcanic tide pools, mushroom foraging, and wild blackberry picking at Inn at Otter Crest on the Oregon Coast. 38 acres of hiking paradise.">
+<meta name="keywords" content="Oregon Coast hiking, Devil's Punchbowl trail, Otter Crest trails, coastal hiking Oregon, tide pools hiking, mushroom foraging Oregon Coast, blackberry picking Oregon">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.innatottercrest.com/trails-hiking.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.innatottercrest.com/trails-hiking.html">
+<meta property="og:title" content="Trails & Hiking at Otter Crest | Oregon Coast Adventures">
+<meta property="og:description" content="38 acres of coastal trails, Devil's Punchbowl, volcanic tide pools, mushroom foraging, and wild blackberry picking.">
+<meta property="og:image" content="images/devils-punchbowl-1.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trails & Hiking at Otter Crest">
+<meta name="twitter:description" content="Explore coastal trails, volcanic rock formations, and tide pools on 38 oceanfront acres.">
+<meta name="twitter:image" content="images/devils-punchbowl-1.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ocean-deep:#0B2533;
+    --ocean:#1A4B5C;
+    --sky:#5BA4C9;
+    --seafoam:#A8D5C8;
+    --sand:#F2E4CE;
+    --sand-light:#FAF5ED;
+    --sand-warm:#E8D5B8;
+    --sunset:#E8895A;
+    --sunset-deep:#D4723E;
+    --coral:#F4A574;
+    --driftwood:#B89F82;
+    --ink:#1C2B2F;
+    --line:rgba(28,43,47,0.1);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Outfit', sans-serif;
+    background:var(--sand-light);
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3{font-family:'Playfair Display', serif; font-weight:500; letter-spacing:-0.01em;}
+  a{color:inherit; text-decoration:none;}
+  img{display:block; max-width:100%;}
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none !important; transition:none !important; scroll-behavior:auto !important;}
+  }
+
+  /* ---------- Animations ---------- */
+  .fade-up{opacity:0; transform:translateY(40px); transition:opacity 0.8s ease, transform 0.8s ease;}
+  .fade-up.visible{opacity:1; transform:translateY(0);}
+  .fade-left{opacity:0; transform:translateX(-40px); transition:opacity 0.8s ease, transform 0.8s ease;}
+  .fade-left.visible{opacity:1; transform:translateX(0);}
+  .fade-right{opacity:0; transform:translateX(40px); transition:opacity 0.8s ease, transform 0.8s ease;}
+  .fade-right.visible{opacity:1; transform:translateX(0);}
+  .scale-in{opacity:0; transform:scale(0.92); transition:opacity 0.7s ease, transform 0.7s ease;}
+  .scale-in.visible{opacity:1; transform:scale(1);}
+  .stagger-children > *{opacity:0; transform:translateY(20px); transition:opacity 0.5s ease, transform 0.5s ease;}
+  .stagger-children.visible > *:nth-child(1){transition-delay:0s; opacity:1; transform:translateY(0);}
+  .stagger-children.visible > *:nth-child(2){transition-delay:0.1s; opacity:1; transform:translateY(0);}
+  .stagger-children.visible > *:nth-child(3){transition-delay:0.2s; opacity:1; transform:translateY(0);}
+  .stagger-children.visible > *:nth-child(4){transition-delay:0.3s; opacity:1; transform:translateY(0);}
+  .stagger-children.visible > *:nth-child(5){transition-delay:0.4s; opacity:1; transform:translateY(0);}
+  .stagger-children.visible > *:nth-child(6){transition-delay:0.5s; opacity:1; transform:translateY(0);}
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:sticky; top:0; z-index:100;
+    background:rgba(11,37,51,0.95);
+    backdrop-filter:blur(10px);
+    padding:0 28px;
+    display:flex; align-items:center; justify-content:space-between;
+    height:60px;
+    border-bottom:1px solid rgba(242,228,206,0.1);
+  }
+  .nav-brand{
+    font-family:'Playfair Display', serif;
+    font-size:1.1rem; font-weight:500;
+    color:var(--sand-light);
+  }
+  .nav-links{display:flex; gap:28px; align-items:center;}
+  .nav-links a{
+    font-size:0.88rem; color:rgba(250,245,237,0.7);
+    font-weight:400; transition:color 0.2s;
+  }
+  .nav-links a:hover,.nav-links a.active{color:var(--sunset);}
+  .nav-cta{
+    background:var(--sunset);
+    color:var(--ocean-deep) !important;
+    padding:8px 18px;
+    border-radius:2px;
+    font-weight:600 !important;
+    font-size:0.85rem !important;
+    transition:background 0.2s;
+  }
+  .nav-cta:hover{background:var(--coral);}
+
+  @media (max-width:680px){
+    .nav-links a:not(.nav-cta){display:none;}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    min-height:80vh;
+    display:flex;
+    align-items:flex-end;
+    background:linear-gradient(180deg, rgba(11,37,51,0.05) 0%, rgba(11,37,51,0.12) 35%, rgba(11,37,51,0.88) 100%), url('images/hiking-trail.jpg') center/cover no-repeat;
+  }
+  .hero-inner{
+    width:100%; max-width:1180px;
+    margin:0 auto; padding:0 28px 70px;
+    color:var(--sand-light);
+  }
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:0.16em;
+    font-size:0.72rem; font-weight:600;
+    color:var(--sunset);
+    margin-bottom:18px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:26px; height:1px;
+    background:var(--sunset);
+    display:inline-block;
+  }
+  .hero h1{
+    font-size:clamp(2.2rem, 5.5vw, 4rem);
+    line-height:1.06; font-weight:500;
+    max-width:700px;
+  }
+  .hero h1 em{font-style:italic; font-weight:400; color:var(--sand);}
+  .hero-sub{
+    margin-top:20px; max-width:520px;
+    font-size:1.02rem; line-height:1.55;
+    color:rgba(250,245,237,0.85);
+    font-weight:300;
+  }
+  .hero-actions{margin-top:30px; display:flex; flex-wrap:wrap; gap:14px; align-items:center;}
+  .btn-primary{
+    background:var(--sunset); color:var(--ocean-deep);
+    font-weight:600; padding:14px 28px;
+    border-radius:2px; font-size:0.95rem;
+    display:inline-flex; align-items:center; gap:8px;
+    transition:background 0.2s, transform 0.2s;
+  }
+  .btn-primary:hover{background:var(--sand); transform:translateY(-1px);}
+
+  /* ---------- Section ---------- */
+  section{position:relative;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 28px;}
+  .section-pad{padding:80px 0;}
+  .section-head{max-width:640px; margin-bottom:48px;}
+  .section-head .eyebrow{color:var(--driftwood);}
+  .section-head .eyebrow::before{background:var(--driftwood);}
+  .section-head h2{font-size:clamp(1.8rem, 3.2vw, 2.5rem); color:var(--ocean-deep); line-height:1.12;}
+  .section-head p{margin-top:14px; font-size:1rem; line-height:1.6; color:rgba(28,43,47,0.65); font-weight:300;}
+
+  /* ---------- Trail cards ---------- */
+  .trails{background:var(--sand-light);}
+  .trail-grid{display:grid; grid-template-columns:repeat(2, 1fr); gap:24px;}
+  .trail-card{
+    background:var(--sand);
+    border-radius:4px;
+    overflow:hidden;
+    transition:box-shadow 0.3s;
+  }
+  .trail-card:hover{box-shadow:0 12px 40px rgba(0,0,0,0.08);}
+  .trail-card-img{
+    width:100%; height:280px;
+    object-fit:cover;
+  }
+  .trail-card-body{padding:28px 24px;}
+  .trail-card-body .difficulty{
+    display:inline-block;
+    font-size:0.7rem; font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    padding:4px 10px;
+    border-radius:2px;
+    margin-bottom:12px;
+  }
+  .diff-easy{background:var(--seafoam); color:var(--ocean-deep);}
+  .diff-moderate{background:var(--sunset); color:var(--ocean-deep);}
+  .diff-adventurous{background:var(--ocean); color:var(--sand-light);}
+  .trail-card-body h3{font-size:1.2rem; color:var(--ocean-deep); margin-bottom:8px;}
+  .trail-card-body p{font-size:0.9rem; line-height:1.6; color:rgba(28,43,47,0.65); font-weight:300;}
+  .trail-card-body .trail-meta{
+    margin-top:14px;
+    display:flex; gap:18px;
+    font-size:0.78rem; color:var(--driftwood);
+    font-weight:500;
+  }
+  @media (max-width:680px){
+    .trail-grid{grid-template-columns:1fr;}
+  }
+
+  /* ---------- Feature trail ---------- */
+  .feature-trail{background:var(--ocean-deep); color:var(--sand-light); overflow:hidden;}
+  .feature-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0;
+    min-height:500px;
+  }
+  .feature-grid img{
+    width:100%; height:100%;
+    object-fit:cover;
+  }
+  .feature-copy{
+    padding:60px 48px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .feature-copy .eyebrow{color:var(--coral);}
+  .feature-copy .eyebrow::before{background:var(--coral);}
+  .feature-copy h2{
+    font-size:clamp(1.8rem, 3vw, 2.4rem);
+    color:var(--sand-light);
+    margin-bottom:16px;
+    line-height:1.12;
+  }
+  .feature-copy p{
+    font-size:0.98rem; line-height:1.7;
+    color:rgba(250,245,237,0.7);
+    font-weight:300;
+    margin-bottom:12px;
+  }
+  .feature-copy .highlight{
+    display:inline-flex; align-items:center; gap:8px;
+    background:rgba(232,137,90,0.15);
+    border:1px solid rgba(232,137,90,0.3);
+    padding:10px 16px;
+    border-radius:2px;
+    font-size:0.88rem;
+    color:var(--coral);
+    font-weight:500;
+    margin-top:10px;
+  }
+  @media (max-width:820px){
+    .feature-grid{grid-template-columns:1fr;}
+    .feature-copy{padding:40px 28px;}
+    .feature-grid img{height:300px;}
+  }
+
+  /* ---------- On-property section ---------- */
+  .on-property{background:var(--sand);}
+  .on-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;}
+  .on-card{
+    position:relative;
+    border-radius:4px;
+    overflow:hidden;
+    aspect-ratio:4/3;
+  }
+  .on-card img{width:100%; height:100%; object-fit:cover; transition:transform 0.5s;}
+  .on-card:hover img{transform:scale(1.05);}
+  .on-card .on-label{
+    position:absolute; bottom:0; left:0; right:0;
+    background:linear-gradient(transparent, rgba(11,37,51,0.85));
+    padding:30px 18px 16px;
+    color:var(--sand-light);
+  }
+  .on-card .on-label h3{font-size:1.05rem; font-weight:500;}
+  .on-card .on-label p{font-size:0.8rem; color:rgba(250,245,237,0.7); font-weight:300; margin-top:3px;}
+  @media (max-width:680px){
+    .on-grid{grid-template-columns:1fr 1fr;}
+  }
+
+  /* ---------- Tips section ---------- */
+  .tips{background:var(--sand-light);}
+  .tips-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:24px;}
+  .tip-card{
+    background:var(--sand);
+    padding:28px 24px;
+    border-radius:3px;
+    border-top:3px solid var(--sunset);
+  }
+  .tip-card .tip-icon{
+    font-size:1.8rem;
+    margin-bottom:12px;
+  }
+  .tip-card h3{font-size:1.05rem; color:var(--ocean-deep); margin-bottom:8px;}
+  .tip-card p{font-size:0.88rem; line-height:1.6; color:rgba(28,43,47,0.6); font-weight:300;}
+  @media (max-width:680px){
+    .tips-grid{grid-template-columns:1fr;}
+  }
+
+  /* ---------- Gallery ---------- */
+  .gallery{background:var(--sand-light);}
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows:260px 260px;
+    gap:10px;
+  }
+  .gallery-grid img{width:100%; height:100%; object-fit:cover; border-radius:3px;}
+  .g1{grid-column:1/4; grid-row:1/3;}
+  .g2{grid-column:4/7; grid-row:1/2;}
+  .g3{grid-column:4/5; grid-row:2/3;}
+  .g4{grid-column:5/7; grid-row:2/3;}
+  @media (max-width:820px){
+    .gallery-grid{grid-template-columns:repeat(2, 1fr); grid-template-rows:auto;}
+    .g1{grid-column:1/3; grid-row:auto; height:280px;}
+    .g2,.g3,.g4{grid-column:auto; grid-row:auto; height:180px;}
+  }
+
+  /* ---------- CTA ---------- */
+  .cta{
+    background:linear-gradient(120deg, var(--sunset-deep), var(--sunset));
+    color:var(--ocean-deep);
+  }
+  .cta-inner{padding:72px 0; text-align:center; max-width:640px; margin:0 auto;}
+  .cta h2{font-size:clamp(1.8rem, 3.8vw, 2.5rem); margin-bottom:14px;}
+  .cta p{font-size:1rem; font-weight:400; margin-bottom:30px; color:rgba(11,37,51,0.8);}
+  .btn-dark{
+    background:var(--ocean-deep); color:var(--sand-light);
+    font-weight:600; padding:16px 32px;
+    border-radius:2px; font-size:1rem;
+    display:inline-flex; align-items:center; gap:8px;
+    transition:transform 0.2s, box-shadow 0.3s;
+  }
+  .btn-dark:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,0.2);}
+
+  /* ---------- Giveaway banner ---------- */
+  .giveaway{
+    background:var(--ocean-deep);
+    color:var(--sand-light);
+    overflow:hidden;
+  }
+  .giveaway-inner{
+    display:grid;
+    grid-template-columns:1.1fr 0.9fr;
+    gap:48px;
+    align-items:center;
+  }
+  .giveaway-copy .tag{
+    display:inline-block;
+    background:var(--sunset);
+    color:var(--ocean-deep);
+    padding:5px 14px;
+    font-size:0.72rem;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    border-radius:2px;
+    margin-bottom:16px;
+  }
+  .giveaway-copy h2{
+    font-size:clamp(1.8rem, 3.2vw, 2.4rem);
+    color:var(--sand-light);
+    line-height:1.12;
+    margin-bottom:14px;
+  }
+  .giveaway-copy p{
+    font-size:0.95rem; line-height:1.65;
+    color:rgba(250,245,237,0.7);
+    font-weight:300;
+    margin-bottom:10px;
+  }
+  .giveaway-copy .value-badge{
+    display:inline-flex; align-items:center; gap:8px;
+    background:rgba(232,137,90,0.12);
+    border:1px solid rgba(232,137,90,0.3);
+    padding:10px 18px;
+    border-radius:2px;
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+  .giveaway-copy .value-badge .price{
+    font-family:'Playfair Display', serif;
+    font-size:1.6rem; font-weight:600;
+    color:var(--coral);
+  }
+  .giveaway-copy .value-badge span{font-size:0.85rem; color:rgba(250,245,237,0.6);}
+  .btn-giveaway{
+    background:var(--sunset);
+    color:var(--ocean-deep);
+    font-weight:600;
+    padding:16px 32px;
+    border-radius:2px;
+    font-size:1rem;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    transition:background 0.2s, transform 0.2s, box-shadow 0.3s;
+  }
+  .btn-giveaway:hover{
+    background:var(--sand);
+    transform:translateY(-2px);
+    box-shadow:0 8px 24px rgba(0,0,0,0.2);
+  }
+  .giveaway-img{
+    border-radius:4px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+  }
+  .giveaway-img img{width:100%; height:auto; display:block;}
+  @media (max-width:820px){
+    .giveaway-inner{grid-template-columns:1fr; text-align:center;}
+    .giveaway-img{max-width:400px; margin:0 auto;}
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    background:var(--ocean-deep);
+    color:rgba(250,245,237,0.5);
+    padding:40px 0 28px;
+    font-size:0.82rem;
+  }
+  .foot-row{
+    display:flex; justify-content:space-between;
+    flex-wrap:wrap; gap:12px; align-items:center;
+  }
+  footer strong{color:var(--sand-light); font-weight:500;}
+  footer a{transition:color 0.2s;}
+  footer a:hover{color:var(--sunset);}
+</style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="nav-brand">Inn at Otter Crest</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="trails-hiking.html" class="active">Trails &amp; Hiking</a>
+    <a href="https://free-otter-crest-suite.vercel.app/raffle/main-website" target="_blank" rel="noopener">🎁 Win a Free Stay</a>
+    <a href="index.html#amenities">Amenities</a>
+    <a href="index.html#location">Location</a>
+    <a class="nav-cta" href="tel:+15417652111">Call (541) 765-2111</a>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Trails &amp; Hiking &middot; Otter Crest</div>
+    <h1>Walk the <em>Edge of the Continent</em></h1>
+    <p class="hero-sub">38 acres of coastal bluff, volcanic rock, forest trails, and Pacific panoramas. From your suite to Devil's Punchbowl — every step is an adventure.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#trails">Explore the Trails</a>
+      <a class="btn-primary" href="index.html" style="background:transparent; color:var(--sand-light); border:1px solid rgba(250,245,237,0.3);">Back to Suite</a>
+    </div>
+  </div>
+</header>
+
+<!-- ========== ON-PROPERTY TRAILS ========== -->
+<section class="on-property section-pad" aria-label="Trails on the property">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div class="eyebrow">On the Grounds</div>
+      <h2>38 acres to explore — no car needed.</h2>
+      <p>Step out of your suite and into the wild. The property spreads across forested bluff with trails connecting everything — from tide pools to mushroom foraging grounds.</p>
+    </div>
+    <div class="on-grid stagger-children">
+      <div class="on-card">
+        <img src="images/hiking-trail.jpg" alt="Coastal hiking trail through forest at Inn at Otter Crest" loading="lazy">
+        <div class="on-label">
+          <h3>Coastal Bluff Trail</h3>
+          <p>Walk the bluff edge with ocean below</p>
+        </div>
+      </div>
+      <div class="on-card">
+        <img src="images/mushroom-country.jpg" alt="Mushroom foraging country in the old-growth forest at Otter Crest" loading="lazy">
+        <div class="on-label">
+          <h3>Mushroom Country</h3>
+          <p>Forage among the old-growth on the property</p>
+        </div>
+      </div>
+      <div class="on-card">
+        <img src="images/blackberry-patch.jpg" alt="Wild blackberry bushes free for picking at Inn at Otter Crest" loading="lazy">
+        <div class="on-label">
+          <h3>Wild Blackberries</h3>
+          <p>FREE berries — pick them on your walk</p>
+        </div>
+      </div>
+      <div class="on-card">
+        <img src="images/forest-path.jpg" alt="Forest path connecting the property areas at Otter Crest" loading="lazy">
+        <div class="on-label">
+          <h3>Forest Paths</h3>
+          <p>Winding trails through the woods</p>
+        </div>
+      </div>
+      <div class="on-card">
+        <img src="images/net-float-tree.jpg" alt="Landmark tree covered in old fishing net floats along the winery trail" loading="lazy">
+        <div class="on-label">
+          <h3>The Net Float Tree</h3>
+          <p>Landmark on the trail to Flying Dutchman</p>
+        </div>
+      </div>
+      <div class="on-card">
+        <img src="images/staircase.jpg" alt="4x4 staircase leading down to the beach at Otter Crest" loading="lazy">
+        <div class="on-label">
+          <h3>The 4x4 Staircase</h3>
+          <p>Iconic stairs down to the beach</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FEATURE: DEVIL'S PUNCHBOWL ========== -->
+<section class="feature-trail" aria-label="Devil's Punchbowl highlight">
+  <div class="feature-grid">
+    <img src="images/devils-punchbowl-1.jpg" alt="Devil's Punchbowl where waves crash up to 50 feet on the Oregon Coast" loading="lazy">
+    <div class="feature-copy fade-right">
+      <div class="eyebrow">Signature Trail</div>
+      <h2>Devil's Punchbowl</h2>
+      <p>The most dramatic spot on the central Oregon Coast. Walk down from the cliffs and stand at the edge of a natural rock cauldron where waves crash up to 50 feet into the air.</p>
+      <p>Right next to Flying Dutchman Winery — so you can hike down, watch the spectacle, hunt for agates on the surrounding beach, then walk up for a tasting. Agates and sea glass wash up on the beach around the Punchbowl after every storm.</p>
+      <div class="highlight">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Walking distance from the property — through the forest along the cliff trail
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ALL TRAILS ========== -->
+<section class="trails section-pad" id="trails" aria-label="Trail guide">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div class="eyebrow">Trail Guide</div>
+      <h2>Every trail tells a different story.</h2>
+      <p>From easy strolls along the bluff to adventurous descents to volcanic tide pools — there's a trail for every mood and ability.</p>
+    </div>
+    <div class="trail-grid">
+      <div class="trail-card fade-up">
+        <img class="trail-card-img" src="images/devils-punchbowl-1.jpg" alt="Devil's Punchbowl trail on the Oregon Coast" loading="lazy">
+        <div class="trail-card-body">
+          <span class="difficulty diff-adventurous">Adventurous</span>
+          <h3>Devil's Punchbowl Trail</h3>
+          <p>Descend from the cliffs to the Punchbowl itself. Watch waves crash up to 50 feet in this volcanic cauldron. Agates and sea glass wash up on the surrounding beach. A truly unique spot on the Oregon Coast.</p>
+          <div class="trail-meta">
+            <span>🌊 Cliff descent</span>
+            <span>🔶 Nearby winery</span>
+          </div>
+        </div>
+      </div>
+      <div class="trail-card fade-up">
+        <img class="trail-card-img" src="images/flying-dutchman-winery.jpg" alt="Trail to Flying Dutchman Winery through coastal forest" loading="lazy">
+        <div class="trail-card-body">
+          <span class="difficulty diff-moderate">Moderate</span>
+          <h3>Winery Cliff Trail</h3>
+          <p>Walk along the cliff edge through the forest to Flying Dutchman Winery. Pass the famous net-float tree on the way and watch for otters in the rocks below. Tasting room at the end.</p>
+          <div class="trail-meta">
+            <span>🍷 To winery</span>
+            <span>🦦 Otter spotting</span>
+          </div>
+        </div>
+      </div>
+      <div class="trail-card fade-up">
+        <img class="trail-card-img" src="images/tidal-pools.jpg" alt="Tide pool hiking trail at Otter Rock, Oregon" loading="lazy">
+        <div class="trail-card-body">
+          <span class="difficulty diff-easy">Easy</span>
+          <h3>Tide Pool Trail</h3>
+          <p>Walk down to the volcanic tide pools below the bluff. Teeming with starfish, anemones, and crabs. Best explored at low tide — check the tide charts at the front desk.</p>
+          <div class="trail-meta">
+            <span>⭐ Starfish &amp; anemones</span>
+            <span>🕗 Check tide times</span>
+          </div>
+        </div>
+      </div>
+      <div class="trail-card fade-up">
+        <img class="trail-card-img" src="images/gull-rock-tide.jpg" alt="Gull Rock volcanic formation trail at Otter Crest" loading="lazy">
+        <div class="trail-card-body">
+          <span class="difficulty diff-moderate">Moderate</span>
+          <h3>Gull Rock &amp; Volcanic Rings</h3>
+          <p>The island visible from the deck — Gull Rock. When the tide goes out, you can see lava rings from an ancient volcanic eruption, evidence of a sonic boom etched into stone over millennia.</p>
+          <div class="trail-meta">
+            <span>🌋 Volcanic geology</span>
+            <span>🕗 Low tide only</span>
+          </div>
+        </div>
+      </div>
+      <div class="trail-card fade-up">
+        <img class="trail-card-img" src="images/forest-path.jpg" alt="Forest mushroom foraging path at Otter Crest" loading="lazy">
+        <div class="trail-card-body">
+          <span class="difficulty diff-easy">Easy</span>
+          <h3>Mushroom Foraging Path</h3>
+          <p>The property sits in mushroom country. Walk the forest trails in autumn and you'll find chanterelles and other wild varieties among the old-growth. Bring a basket from the kitchen.</p>
+          <div class="trail-meta">
+            <span>🍄 Autumn foraging</span>
+            <span>🌲 Old-growth forest</span>
+          </div>
+        </div>
+      </div>
+      <div class="trail-card fade-up">
+        <img class="trail-card-img" src="images/agate-beach.jpg" alt="Agate hunting beach near Otter Crest" loading="lazy">
+        <div class="trail-card-body">
+          <span class="difficulty diff-easy">Easy</span>
+          <h3>Agate Beach Walk</h3>
+          <p>After storms, the beach around Otter Rock fills with agates, jasper, and sea glass. Walk the shoreline at low tide and you'll find treasures the Pacific just delivered. Free for the taking.</p>
+          <div class="trail-meta">
+            <span>💎 Agates &amp; sea glass</span>
+            <span>🌊 After storms</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GALLERY ========== -->
+<section class="gallery section-pad" aria-label="Trail gallery">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div class="eyebrow">Along the Way</div>
+      <h2>What you'll see on the trails.</h2>
+    </div>
+    <div class="gallery-grid">
+      <img class="g1 scale-in" src="images/cliff-view.jpg" alt="Dramatic cliff view from the hiking trails at Otter Crest" loading="lazy">
+      <img class="g2 scale-in" src="images/devils-punchbowl-2.jpg" alt="Devil's Punchbowl waves crashing on the Oregon Coast" loading="lazy">
+      <img class="g3 scale-in" src="images/otter-rock-coast.jpg" alt="Otter Rock coastal view with volcanic formations" loading="lazy">
+      <img class="g4 scale-in" src="images/tidal-pools-2.jpg" alt="Close-up of volcanic tide pools with marine life" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ========== HIKING TIPS ========== -->
+<section class="tips section-pad" aria-label="Hiking tips">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div class="eyebrow">Before You Go</div>
+      <h2>Trail tips from the front desk.</h2>
+      <p>A few things to know before you head out — so every hike is safe and enjoyable.</p>
+    </div>
+    <div class="tips-grid stagger-children">
+      <div class="tip-card">
+        <div class="tip-icon">🌊</div>
+        <h3>Check the Tides</h3>
+        <p>Tide pools and Gull Rock are best at low tide. Ask the front desk for a tide chart or check online before you go. The Punchbowl is spectacular at high tide.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🧥</div>
+        <h3>Layer Up</h3>
+        <p>Coastal weather changes fast. Bring a windbreaker even on sunny days — the bluff gets hit by ocean wind. Mornings are foggy, afternoons often clear.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">👢</div>
+        <h3>Sturdy Shoes</h3>
+        <p>Trails can be muddy, especially in the forest sections. The bluff edges are uneven volcanic rock — closed-toe shoes or hiking boots are recommended.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🫐</div>
+        <h3>Free Blackberries</h3>
+        <p>Wild blackberries grow on the property — pick them on your walk. Peak season is late summer. Grab a container from the full kitchen before you head out.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🍄</div>
+        <h3>Mushroom Season</h3>
+        <p>Autumn (October–December) is prime mushroom foraging season on the 38-acre property. Chanterelles love the old-growth forest floors here.</p>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🦦</div>
+        <h3>Wildlife Watching</h3>
+        <p>Watch for otters in the rocks along the cliff trail. Whales pass by December through June — you can spot spouts right from the hiking paths.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GIVEAWAY ========== -->
+<section class="giveaway section-pad" aria-label="Free stay giveaway">
+  <div class="wrap">
+    <div class="giveaway-inner">
+      <div class="giveaway-copy fade-left">
+        <div class="tag">🎉 Giveaway</div>
+        <h2>Win a FREE 3-Night Honeymoon Getaway</h2>
+        <p>One lucky couple will win a FREE 3-night stay at the Inn at Otter Crest — a breathtaking oceanfront retreat on the Oregon Coast. Enter for your chance to win this dream getaway.</p>
+        <div class="value-badge">
+          <div class="price">$1,050</div>
+          <span>Approximate retail value<br>($350/night &times; 3 nights)</span>
+        </div>
+        <br>
+        <a class="btn-giveaway" href="https://free-otter-crest-suite.vercel.app/raffle/main-website" target="_blank" rel="noopener">
+          Enter the Giveaway
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        <p style="margin-top:14px; font-size:0.82rem; color:rgba(250,245,237,0.45);">No purchase necessary. See official rules at website.</p>
+      </div>
+      <div class="giveaway-img fade-right">
+        <img src="images/giveaway-poster.png" alt="Win a free 3-night honeymoon getaway at Inn at Otter Crest, Oregon Coast" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta" aria-label="Book your stay">
+  <div class="wrap">
+    <div class="cta-inner">
+      <h2>Your trail starts at the front door.</h2>
+      <p>Book your stay and explore 38 acres of coastal wilderness — plus Devil's Punchbowl, Flying Dutchman Winery, and the best tide pools on the Oregon Coast.</p>
+      <a class="btn-dark" href="tel:+15417652111">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (541) 765-2111
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer role="contentinfo">
+  <div class="wrap foot-row">
+    <div><strong>Inn at Otter Crest</strong> &middot; 301 Otter Crest Dr, Otter Rock, OR 97369</div>
+    <div><a href="tel:+15417652111" style="color:var(--sand-light);">(541) 765-2111</a> &middot; <a href="index.html">Home</a> &middot; <a href="trails-hiking.html">Trails</a></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+  },{threshold:0.15,rootMargin:'0px 0px -50px 0px'});
+  document.querySelectorAll('.fade-up,.fade-left,.fade-right,.scale-in,.stagger-children').forEach(function(el){obs.observe(el);});
+})();
+</script>
+
+</body>
+</html>
